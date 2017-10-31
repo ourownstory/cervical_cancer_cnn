@@ -1,0 +1,12 @@
+README for final submission of ODT/Intel Cervical Cancer Kaggle Challenge
+
+Stephen Pfohl
+Ben Marafino
+Oskar Triebe
+Last modified: June 14, 2017
+
+This submission should achieve a score of around 0.56 on the Phase 1 leaderboard.
+
+Pretrained models were used from PyTorch Model Zoo: http://pytorch.org/docs/torchvision/models.html
+
+Best results are the mean ensemble predictions of the top 5 models over hundreds of curated random search experiments. We have included the hyperparameters used and the training script for the top models in 'create_model_loop.ipynb'. This file additionally saves checkpoints of the models used in the final ensemble. The data may be downscaled and split into directories associated with each partition (train, val, test, etc). The predictions on an arbitrary test set for the model ensemble may be made with 'predict_loop.ipynb'. The results may not be directly reproducible due to differences in random seed behavior between physical hardware.
