@@ -1,7 +1,8 @@
 # Guiding the management of cervical cancer with convolutional neural networks
 
-This repo contains the work done by Stephen Pfohl, Oskar Triebe and Ben Marafino for the Stanford CS231N class project. 
-The problem solved is the classification of images with limited training data. The code can serve as example for the following subdomains within Deep Learning:
+This repo contains the work done by Stephen Pfohl, Oskar Triebe and Ben Marafino for the Stanford CS231N class project. Our team's final position in the Kaggle Competition (https://www.kaggle.com/c/intel-mobileodt-cervical-cancer-screening) was 61 out of 848 competing teams, earning a Kaggle Bronze award.
+
+The problem solved here is the classification of images with limited training data. The code can serve as example for the following subdomains within Deep Learning:
 
 * Transfer Learning
 * Data Transformations and Training Pipelines
