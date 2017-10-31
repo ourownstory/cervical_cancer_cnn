@@ -1,4 +1,4 @@
-# cervical_cancer_cnn
+# Guiding the management of cervical cancer with convolutional neural networks
 
 This repo contains the work done by Stephen Pfohl, Oskar Triebe and Ben Marafino for the Stanford CS231N class project. 
 The problem solved is the classification of images with limited training data. The code can serve as example for the following subdomains within Deep Learning:
